@@ -1,0 +1,103 @@
+{
+  "type": "screen",
+  "components": [
+    {
+      "type": "carousel",
+      "layout": "horizontal",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://farm2.staticflickr.com/1533/26541536141_41abe98db3_z_d.jpg",
+          "description": "Image 1",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        },
+        {
+          "type": "image",
+          "url": "https://farm4.staticflickr.com/3075/3168662394_7d7103de7d_z_d.jpg",
+          "description": "Image 2",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        },
+        {
+          "type": "image",
+          "url": "https://farm9.staticflickr.com/8505/8441256181_4e98d8bff5_z_d.jpg",
+          "description": "Image 3",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        }
+      ]
+    },
+    {
+      "type": "carousel",
+      "layout": "vertical",
+      "items": [
+        {
+          "type": "text",
+          "content": "Vertical Item 1",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        },
+        {
+          "type": "text",
+          "content": "Vertical Item 2",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        },
+        {
+          "type": "text",
+          "content": "Vertical Item 3",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-item",
+          "title": "List Item 1",
+          "subtitle": "This is the first item",
+          "icon": "https://i.imgur.com/OnwEDW3.jpg",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        },
+        {
+          "type": "list-item",
+          "title": "List Item 2",
+          "subtitle": "This is the second item",
+          "icon": "https://farm3.staticflickr.com/2220/1572613671_7311098b76_z_d.jpg",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        },
+        {
+          "type": "list-item",
+          "title": "List Item 3",
+          "subtitle": "This is the third item",
+          "icon": "https://farm6.staticflickr.com/5590/14821526429_5c6ea60405_z_d.jpg",
+          "action": {
+            "type": "navigate",
+            "url": "https://www.google.com"
+          }
+        }
+      ]
+    }
+  ]
+}
